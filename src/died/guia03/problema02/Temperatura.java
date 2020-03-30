@@ -14,6 +14,11 @@ public class Temperatura {
 		escala = esc;
 	}
 	
+	public double getGrados() {
+		return this.grados;
+	}
+	
+	
 	@Override
 	public String toString() {
 		String a;
